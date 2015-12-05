@@ -10,6 +10,7 @@
   "author": "maboiteaspam",
   "license": "WTF",
   "dependencies": {
+    "bubbler": "maboiteaspam/bubbler",
     "debug": "^2.2.0",
     "flower": "maboiteaspam/flower"
   }
