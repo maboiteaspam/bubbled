@@ -1,5 +1,16 @@
+# bubbled
 
-var bubbled = require('./index.js')             // bubbled are streams,
+Stream capable of events bubbling.
+
+## Install
+
+    npm i maboiteaspam/bubbled --save
+
+## Usage
+
+File __playground.js__
+```js
+var bubbled = require('bubbled')                // bubbled are streams,
                                                 //
 var events = ['message'];                       // which listens to certain events.
                                                 //
@@ -19,3 +30,5 @@ streamA.on('message', function (chunk) {        // Those streams enable you to l
                                                 //
 streamB.emit('message', 'hello, its streamB !') // Note : re-trigger the events to invoke the listener,
 streamC.emit('message', 'hello, its streamC !') // so something shows up at runtime ;)
+
+```

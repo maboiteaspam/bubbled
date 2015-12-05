@@ -1,12 +1,16 @@
 {
   "name": "bubbled",
   "version": "1.0.0",
-  "description": "",
+  "description": "Streams bubbling events",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "maboiteaspam",
+  "license": "WTF",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "flower": "maboiteaspam/flower"
+  }
 }
