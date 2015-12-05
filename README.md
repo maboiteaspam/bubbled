@@ -32,3 +32,12 @@ streamB.emit('message', 'hello, its streamB !') // Note : re-trigger the events 
 streamC.emit('message', 'hello, its streamC !') // so something shows up at runtime ;)
 
 ```
+
+## More
+
+You can see it in action in `npi`
+
+- https://github.com/maboiteaspam/npi
+- https://github.com/maboiteaspam/flower
+
+
