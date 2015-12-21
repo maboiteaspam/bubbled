@@ -1,6 +1,6 @@
 {
   "name": "@maboiteaspam/bubbled",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Streams bubbling events",
   "main": "index.js",
   "scripts": {
@@ -22,8 +22,8 @@
   "author": "maboiteaspam",
   "license": "WTF",
   "dependencies": {
-    "@maboiteaspam/bubbler": "^2.0.0",
-    "@maboiteaspam/flower": "^2.0.0",
-    "debug": "^2.2.0"
+    "@maboiteaspam/bubbler": ">=2.0.0 <3.0.0-0",
+    "@maboiteaspam/flower": ">=2.0.0 <3.0.0-0",
+    "debug": ">=2.2.0 <3.0.0-0"
   }
 }
