@@ -4,13 +4,13 @@ Stream capable of events bubbling.
 
 ## Install
 
-    npm i maboiteaspam/bubbled --save
+    npm i @maboiteaspam/bubbled --save
 
 ## Usage
 
 File __playground.js__
 ```js
-var bubbled = require('bubbled')                // bubbled are streams,
+var bubbled = require('@maboiteaspam/bubbled')  // bubbled are streams,
                                                 //
 var events = ['message'];                       // which listens to certain events.
                                                 //

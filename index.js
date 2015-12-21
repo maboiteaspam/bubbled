@@ -1,5 +1,5 @@
-var bubbler = require('bubbler')
-var flower = require('flower')
+var bubbler = require('@maboiteaspam/bubbler')
+var flower = require('@maboiteaspam/flower')
 
 module.exports = function bubbled (name, events, fnT, fnF) {
   var args = [].slice.apply(arguments);
